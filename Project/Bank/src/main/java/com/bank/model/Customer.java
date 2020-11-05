@@ -3,14 +3,13 @@ package com.bank.model;
 public class Customer {
 	
 	private String userName;
+	private String password;
 	private String firstName;
 	private String lastName;
 	private long contact;
-//	private String password;
-	private double balance;
+	private long balance;
 	
-	public Customer(String userName, String firstName, String lastName, 
-					long contact, double balance) {
+	public Customer(String userName, String firstName, String lastName, long contact, long balance) {
 		super();
 		this.userName = userName;
 		this.firstName = firstName;
@@ -19,9 +18,24 @@ public class Customer {
 		this.balance = balance;
 	}
 	
+	public Customer(String userName, String firstName, String lastName, long contact) {
+		super();
+		this.userName = userName;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.contact = contact;
+	}
+	
 	public Customer() {
 	}
 	
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	public String getUserName() {
 		return userName;
 	}
@@ -46,10 +60,10 @@ public class Customer {
 	public void setContact(long contact) {
 		this.contact = contact;
 	}
-	public double getBalance() {
+	public long getBalance() {
 		return balance;
 	}
-	public void setBalance(double balance) {
+	public void setBalance(long balance) {
 		this.balance = balance;
 	}
 

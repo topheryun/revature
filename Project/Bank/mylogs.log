@@ -1,0 +1,1255 @@
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: Welcome to Chris' Super Cool Bank    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.BankMain: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.BankMain: 3. Register new account    03-11-2020
+[INFO] com.bank.main.BankMain: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: Enter User Name.    03-11-2020
+[INFO] com.bank.main.BankMain: Enter First Name.    03-11-2020
+[INFO] com.bank.main.BankMain: Enter Last Name    03-11-2020
+[INFO] com.bank.main.BankMain: Enter 10-digit Phone Number    03-11-2020
+[INFO] com.bank.main.BankMain: Registration Pending.    03-11-2020
+[INFO] com.bank.main.BankMain:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.BankMain: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.BankMain: 3. Register new account    03-11-2020
+[INFO] com.bank.main.BankMain: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: Enter User Name.    03-11-2020
+[INFO] com.bank.main.BankMain: Enter Password.    03-11-2020
+[INFO] com.bank.main.BankMain: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.BankMain: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.BankMain: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.BankMain: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.BankMain: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.BankMain: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.BankMain: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: Exit.    03-11-2020
+[INFO] com.bank.main.BankMain:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.BankMain: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.BankMain: 3. Register new account    03-11-2020
+[INFO] com.bank.main.BankMain: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: Thank you for user Chris' Super Cool Bank uwu.    03-11-2020
+[INFO] com.bank.main.BankMain:     03-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    03-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Exit.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    03-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Exit.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Please enter a number between 1 and 7.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Please enter a number between 1 and 7.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Exit.    03-11-2020
+[INFO] com.bank.main.UserDashboard:     03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: com.bank.model.Account@9a7504c    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: com.bank.model.Account@2c039ac6    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Create New Account -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Account Creation Successful. Pending Approval.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: com.bank.model.Account@4abdb505    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: com.bank.model.Account@7ce6a65d    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: com.bank.model.Account@1500955a    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    03-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    03-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: Account ID: 1234, Balance: 500    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    03-11-2020
+[INFO] com.bank.main.BankMain: ==============================    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    03-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    03-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Create New Account -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Account Creation Successful. Pending Approval.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Accounts -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: $142.0 has been withdrawn from your account.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    04-11-2020
+[WARN] com.bank.main.CustomerDashboard: Could not withdraw from account.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[ERROR] com.bank.main.CustomerDashboard: Index 2 out of bounds for length 2    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Withdraw Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: $1.0 has been withdrawn from your account.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Transfer Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Enter account number to transfer to.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Enter amount to be transfered.    04-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Could not locate target acount number.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: $231.0 has been trasnfered to account #241.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    04-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    04-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Transfer Money -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Account ID: 1234, Balance: 500.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. Account ID: 3412, Balance: 800.0    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Enter account number to transfer to.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: Enter amount to be transfered.    04-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Could not locate target acount number.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: $123.0 has been trasnfered to account #321.    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    04-11-2020
+[INFO] com.bank.main.BankMain: ==============================    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    04-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    04-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: ERROR: relation "bank.customer" does not exist
+  Position: 22    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: ERROR: relation "customer" does not exist
+  Position: 22    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: ERROR: relation "customer" does not exist
+  Position: 22    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: The column name isPending was not found in this ResultSet.    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Unsuccessful.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Unsuccessful.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Unsuccessful.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Unsuccessful.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Unsuccessful.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Unsuccessful.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Accounts.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. View Customer Accounts.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer History.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. Exit.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Please enter a number between 1 and 4.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Please enter a number between 1 and 4.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Accounts.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. View Customer Accounts.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer History.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. Exit.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find ID.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020

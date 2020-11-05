@@ -1,37 +1,39 @@
 package com.bank.service.impl;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
 import com.bank.exception.BusinessException;
+import com.bank.model.Account;
 import com.bank.service.BankSearchService;
 
 public class BankSearchServiceImpl implements BankSearchService {
+	
+	private static Logger log = Logger.getLogger(BankSearchServiceImpl.class);	
 
 	@Override
-	public Boolean verifyUserLogin(String userName, String password) throws BusinessException {
-		if (userName != "" && password != "") {
-			return true;
-		}
-		else if (userName == "\n") {
-			throw new BusinessException("Invalid user name.");
-		}
-		else if (password == "\n") {
-			throw new BusinessException("Invalid password.");
-		}
-		return false;
+	public List<Account> getAllAccounts(String userName) throws BusinessException {
+		List<Account> accountsList = new ArrayList<>();
+//		accountsList = links to searchDAO 
+		Account temp1 = new Account("toph", 1234, 500L);
+		Account temp2 = new Account("toph", 3412, 800L);
+		accountsList.add(temp1);
+		accountsList.add(temp2);
+		
+		return accountsList;
 	}
 
 	@Override
-	public Boolean verifyEmployeeLogin(String userName, String password) throws BusinessException {
-		System.out.println("userName: " + userName);
-		if (userName != "" && password != "") {
-			return true;
-		}
-		else if (userName == "\n") {
-			throw new BusinessException("Invalid user name.");
-		}
-		else if (password == "\n") {
-			throw new BusinessException("Invalid password.");
-		}
-		return false;
+	public List<Account> getPendingAccounts() throws BusinessException {
+		List<Account> accountsList = new ArrayList<>();
+		Account temp1 = new Account("toph", 1234, 500L);
+		Account temp2 = new Account("toph", 3412, 800L);
+		accountsList.add(temp1);
+		accountsList.add(temp2);
+		
+		return accountsList;
 	}
 
 }
