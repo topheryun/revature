@@ -1253,3 +1253,472 @@
 [INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
 [INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
 [INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (username)=(toph) already exists.    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (username)=(toph) already exists.    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[ERROR] com.bank.dao.impl.BankSearchDAOImpl: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (username)=(toph) already exists.    05-11-2020
+[ERROR] com.bank.main.UserDashboard: Internal Error: Contact SYSADMIN.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Username already exists.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Account has yet to be approved by an Employee.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Account has yet to be approved by an Employee.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Registration -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    05-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Account has yet to be approved by an Employee.    05-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Employee Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Accounts.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. View Customer Accounts.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer History.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. Exit.    05-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Login -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    05-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Customer Options -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: 7. Exit.    05-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.BankMain: *- Login Menu -*    05-11-2020
+[INFO] com.bank.main.BankMain: ==============================    05-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    05-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    05-11-2020
+[INFO] com.bank.main.UserDashboard: 4. Exit    05-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    05-11-2020
+[INFO] com.bank.main.UserDashboard:     05-11-2020

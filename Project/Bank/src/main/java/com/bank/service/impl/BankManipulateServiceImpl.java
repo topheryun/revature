@@ -2,13 +2,17 @@ package com.bank.service.impl;
 
 import org.apache.log4j.Logger;
 
+import com.bank.dao.BankSearchDAO;
+import com.bank.dao.impl.BankSearchDAOImpl;
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
+import com.bank.model.Customer;
 import com.bank.service.BankManipulateService;
 
 public class BankManipulateServiceImpl implements BankManipulateService {
 	
 	private static Logger log = Logger.getLogger(BankManipulateServiceImpl.class);
+	BankSearchDAO bankSearchDAO = new BankSearchDAOImpl();
 
 	@Override
 	public Boolean CreateNewAccount(float balance) throws BusinessException {
@@ -90,29 +94,15 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	}
 
 	@Override
-	public Boolean registerNewAccount(String userName, String password, String firstName, String lastName, long contact)
-			throws BusinessException {
+	public Boolean registerNewAccount(Customer customer, String password) throws BusinessException {
 		boolean isRegistered = false;
-		if (userName != null && password != null && firstName != null && lastName != null && 
-			contact >= 1000000000L && contact <= 9999999999L) {
-			isRegistered = true;
+		if (customer != null && customer.getContact() >= 1000000000L && customer.getContact() <= 9999999999L) {
+			isRegistered = bankSearchDAO.registerNewAccount(customer, password);
 		}
-		else if (userName == null) {
-			log.warn("Invalid user name.");
-		}
-		else if (password == null) {
-			log.warn("Invalid password.");
-		}
-		else if (firstName == null) {
-			log.warn("Invalid first name.");
-		}
-		else if (lastName == null) {
-			log.warn("Invalid last name.");
-		}
-		else if (contact < 1000000000L || contact > 9999999999L) {
+		else if (customer.getContact() < 1000000000L || customer.getContact() > 9999999999L) {
 			log.warn("Invalid contact. Must be 10 digits.");
 		}
 		return isRegistered;
-}
+	}
 	
 }

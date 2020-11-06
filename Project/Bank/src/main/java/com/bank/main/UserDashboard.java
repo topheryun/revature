@@ -5,6 +5,7 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.bank.exception.BusinessException;
+import com.bank.model.Customer;
 import com.bank.service.BankManipulateService;
 import com.bank.service.ValidationService;
 import com.bank.service.impl.BankManipulateServiceImpl;
@@ -134,9 +135,8 @@ public class UserDashboard {
 			lastName = scanner.nextLine();
 			log.info("Enter 10-digit Phone Number");
 			contact = Long.parseLong(scanner.nextLine());
-			Boolean checkRegistrationInfo = 
-					bankManipulateService.registerNewAccount(
-					userName, password, firstName, lastName, contact);
+			Customer customer = new Customer(userName, firstName, lastName, contact);
+			Boolean checkRegistrationInfo = bankManipulateService.registerNewAccount(customer, password);
 			if (checkRegistrationInfo) {
 				log.info("Registration Pending.");
 			}
