@@ -67,7 +67,7 @@ public class CustomerDashboard {
 	}
 	
 /* ==================================================
- Create New Account
+ Create New Account backend done (ADD LOG?)
 ================================================== */
 	public static void viewCreateNewAccountRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
@@ -77,7 +77,7 @@ public class CustomerDashboard {
 			log.info("Deposit initial balance for new account.");
 			balance = Float.parseFloat(scanner.nextLine());
 			Boolean checkCreateAccount = 
-					bankManipulateService.CreateNewAccount(balance);
+					bankManipulateService.CreateNewTransactionalAccount(userName, balance);
 			if (checkCreateAccount) {
 				log.info("Account Creation Successful. Pending Approval.");
 			}
@@ -91,7 +91,7 @@ public class CustomerDashboard {
 	}
 	
 /* ==================================================
- View Accounts
+ View Accounts -  backend done
 ================================================== */
 	public static void viewAccountsRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -103,17 +103,13 @@ public class CustomerDashboard {
 					log.info(account);
 				}
 			}
-			else {
-				log.warn("Could Not Locate Accounts.");
-			}
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		}
-		
 	}
 	
 /* ==================================================
- Withdraw Money
+ Withdraw Money backend done ADD LOG
 ================================================== */
 	public static void viewWithdrawMoneyRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -153,7 +149,7 @@ public class CustomerDashboard {
 	}
 	
 /* ==================================================
- Deposit Money
+ Deposit Money ADD LOG
 ================================================== */
 	public static void viewDepositMoneyRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -174,7 +170,7 @@ public class CustomerDashboard {
 				log.info("How much would you like to deposit?");
 				userDepositAmount = Float.parseFloat(scanner.nextLine());
 				boolean checkDeposit = 
-						bankManipulateService.DepositFromAccount(
+						bankManipulateService.DepositToAccount(
 							accountList.get(userAccountChoice-1).getAccountNumber(), 
 							userDepositAmount
 						);
@@ -193,7 +189,7 @@ public class CustomerDashboard {
 	}
 	
 /* ==================================================
- Transfer Money
+ Transfer Money backend done ADD LOG
 ================================================== */
 	public static void viewTransferMoneyRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
@@ -223,7 +219,7 @@ public class CustomerDashboard {
 							userTransferAmount
 						);
 				if (checkTransfer) {
-					log.info("$" + userTransferAmount + " has been trasnfered to account #" + userTransferTarget + ".");
+					log.info("$" + userTransferAmount + " is transfering to account #" + userTransferTarget + ".");
 				}
 				else {
 					log.warn("Could not transfer.");
@@ -237,24 +233,26 @@ public class CustomerDashboard {
 	}
 	
 /* ==================================================
- Receive Transfer
+ Receive Transfer backend done ADD LOG
 ================================================== */
 	public static void viewReceiveTransferRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
-		int userTargetAccountNumber = 0;
-		float userTransferAmount = 0;
+		BankSearchService bankSearchService = new BankSearchServiceImpl();
+		int userTransferChoice = 0;
 		
 		BankMain.printConsoleMenuItem("Receive Transfer");
 		try {
-			log.info("Input account number of account to send to.");
-			userTargetAccountNumber = Integer.parseInt(scanner.nextLine());
-			log.info("Input transfer amount.");
-			userTransferAmount = Float.parseFloat(scanner.nextLine());
+			log.info("Incoming Transfers.");
+			List<Account> transfersList = bankSearchService.getAllTransfers(userName);
+			if (transfersList != null & transfersList.size() > 0) {
+				int i = 1;
+				for (Account transfer: transfersList) {
+					log.info(i++ + ". " + transfer);
+				}
+			}
+			userTransferChoice = Integer.parseInt(scanner.nextLine());
 			boolean checkTransfer = 
-					bankManipulateService.ReceiveTransfer(
-						userTargetAccountNumber, 
-						userTransferAmount
-					);
+					bankManipulateService.ReceiveTransfer(transfersList.get(userTransferChoice-1));
 			if (checkTransfer) {
 				log.info("Transfer received.");
 			}
@@ -264,7 +262,6 @@ public class CustomerDashboard {
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		}
-		
 	}
 	
 }

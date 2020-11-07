@@ -10,7 +10,7 @@ public class ValidationServiceImpl implements ValidationService {
 	BankSearchDAO bankSearchDAO = new BankSearchDAOImpl();
 	
 	@Override
-	public Boolean verifyUserLogin(String userName, String password) throws BusinessException {
+	public boolean verifyUserLogin(String userName, String password) throws BusinessException {
 		boolean checkUserLogin = false;
 		if (userName != null && password != null) {
 			checkUserLogin = bankSearchDAO.verifyUserLogin(userName, password);
@@ -25,7 +25,7 @@ public class ValidationServiceImpl implements ValidationService {
 	}
 
 	@Override
-	public Boolean verifyEmployeeLogin(int employeeId, String password) throws BusinessException {
+	public boolean verifyEmployeeLogin(int employeeId, String password) throws BusinessException {
 		boolean checkEmployeeLogin = false;
 		if (employeeId != 0 && password != null) {
 			checkEmployeeLogin = bankSearchDAO.verifyEmployeeLogin(employeeId, password);

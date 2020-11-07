@@ -136,7 +136,7 @@ public class UserDashboard {
 			log.info("Enter 10-digit Phone Number");
 			contact = Long.parseLong(scanner.nextLine());
 			Customer customer = new Customer(userName, firstName, lastName, contact);
-			Boolean checkRegistrationInfo = bankManipulateService.registerNewAccount(customer, password);
+			Boolean checkRegistrationInfo = bankManipulateService.registerNewCustomerAccount(customer, password);
 			if (checkRegistrationInfo) {
 				log.info("Registration Pending.");
 			}
