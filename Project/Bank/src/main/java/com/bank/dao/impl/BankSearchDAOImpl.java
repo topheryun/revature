@@ -15,6 +15,7 @@ import com.bank.dao.util.BankDbUtilProps;
 import com.bank.dao.util.BankPostgresSqlConnection;
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
+import com.bank.model.Customer;
 
 public class BankSearchDAOImpl implements BankSearchDAO {
 	
@@ -186,6 +187,30 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
 		}
 		return transfersList;
+	}
+
+	@Override
+	public List<Customer> getAllPendingCustomerAccounts() throws BusinessException {
+		List<Customer> pendingCustomersList = new ArrayList<>();
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.GET_ALL_PENDING_CUSTOMER_ACCOUNTS;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setBoolean(1, true);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				Customer customer = new Customer(
+					resultSet.getString("userName"),
+					resultSet.getString("firstName"),
+					resultSet.getString("lastName"),
+					resultSet.getLong("contact")
+				);
+				pendingCustomersList.add(customer);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return pendingCustomersList;
 	}
 
 }

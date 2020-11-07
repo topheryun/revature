@@ -11,5 +11,7 @@ public interface BankManipulateDAO {
 	public boolean UpdateAccount(Account account, float amount) throws BusinessException;
 	public boolean CreateTransfer(int id, Account targetAccount, float amount) throws BusinessException;
 	public boolean DeleteTransfer(Account transfer) throws BusinessException;
+	public boolean ApproveCustomerAccount(Customer customer) throws BusinessException;
+	public boolean DeleteCustomerAccount(Customer customer) throws BusinessException;
 
 }

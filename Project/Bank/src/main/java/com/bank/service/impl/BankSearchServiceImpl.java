@@ -9,6 +9,7 @@ import com.bank.dao.BankSearchDAO;
 import com.bank.dao.impl.BankSearchDAOImpl;
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
+import com.bank.model.Customer;
 import com.bank.service.BankSearchService;
 
 public class BankSearchServiceImpl implements BankSearchService {
@@ -26,14 +27,12 @@ public class BankSearchServiceImpl implements BankSearchService {
 	}
 
 	@Override
-	public List<Account> getPendingAccounts() throws BusinessException {
-		List<Account> accountsList = new ArrayList<>();
-		Account temp1 = new Account("toph", 1234, 500L);
-		Account temp2 = new Account("toph", 3412, 800L);
-		accountsList.add(temp1);
-		accountsList.add(temp2);
-		
-		return accountsList;
+	public List<Customer> getPendingCustomerAccounts() throws BusinessException {
+		List<Customer> customersList = bankSearchDAO.getAllPendingCustomerAccounts();
+		if (customersList.size() == 0) {
+			log.warn("No Customers Available.");
+		}
+		return customersList;
 	}
 
 	@Override

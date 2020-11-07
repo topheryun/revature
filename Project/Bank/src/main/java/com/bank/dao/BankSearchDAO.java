@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
+import com.bank.model.Customer;
 
 public interface BankSearchDAO {
 	
@@ -14,5 +15,6 @@ public interface BankSearchDAO {
 	public Account getAccount(int accountNumber) throws BusinessException;
 	public boolean checkForUniqueId(int id) throws BusinessException;
 	public List<Account> getAllTransfers(List<Account> accountsList) throws BusinessException;
+	public List<Customer> getAllPendingCustomerAccounts() throws BusinessException;
 	
 }

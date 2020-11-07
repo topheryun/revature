@@ -121,4 +121,37 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 		return isDeleted;
 	}
 
+	@Override
+	public boolean ApproveCustomerAccount(Customer customer) throws BusinessException {
+		boolean isApproved = false;
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.APPROVE_CUSTOMER_ACCOUNT;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setBoolean(1, false);
+			preparedStatement.setString(2, customer.getUserName());
+			preparedStatement.executeUpdate();
+			isApproved = true;
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return isApproved;
+	}
+
+	@Override
+	public boolean DeleteCustomerAccount(Customer customer) throws BusinessException {
+		boolean isDeleted = false;
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.DELETE_CUSTOMER_ACCOUNT;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customer.getUserName());
+			preparedStatement.executeUpdate();
+			isDeleted = true;
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return isDeleted;
+	}
+
 }

@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
+import com.bank.model.Customer;
 import com.bank.service.BankManipulateService;
 import com.bank.service.BankSearchService;
 import com.bank.service.impl.BankManipulateServiceImpl;
@@ -35,7 +36,7 @@ public class EmployeeDashboard {
 			
 			switch (userChoice) {
 			case 1:
-				viewApprovePendingAccountsRoute(scanner);
+				viewApprovePendingCustomerAccountsRoute(scanner);
 				break;
 			case 2:
 				viewViewCustomerAccountsRoute(scanner);
@@ -54,30 +55,30 @@ public class EmployeeDashboard {
 	}
 	
 /* ==================================================
- Approve Pending Accounts
+ Approve Pending Accounts backend done
 ================================================== */
-	public static void viewApprovePendingAccountsRoute(Scanner scanner) {
+	public static void viewApprovePendingCustomerAccountsRoute(Scanner scanner) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
 		int userAccountChoice = 0;
-		boolean checkApproval = false;
+		boolean isApproved = false;
 		
-		BankMain.printConsoleMenuItem("Accounts Pending Approval");
+		BankMain.printConsoleMenuItem("Customer Accounts Pending Approval");
 		try {
-			log.info("Select Account.");
-			List<Account> accountList = bankSearchService.getPendingAccounts();
-			if (accountList != null & accountList.size() > 0) {
+			log.info("Select Customer Account.");
+			List<Customer> customerList = bankSearchService.getPendingCustomerAccounts();
+			if (customerList != null & customerList.size() > 0) {
 				int i = 1;
-				for (Account account: accountList) {
-					log.info(i++ + ". " + account);
+				for (Customer customer: customerList) {
+					log.info(i++ + ". " + customer);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
 				log.info("1. Approve\n2. Deny");
-				checkApproval = Integer.parseInt(scanner.nextLine()) == 1 ? true : false;
+				isApproved = Integer.parseInt(scanner.nextLine()) == 1 ? true : false;
 				boolean isFinalized = 
-						bankManipulateService.FinalizePendingAccount(
-							userAccountChoice, 
-							checkApproval
+						bankManipulateService.FinalizePendingCustomerAccount(
+							customerList.get(userAccountChoice-1), 
+							isApproved
 						);
 				if (isFinalized) {
 					log.info("Account status has been finalized.");
@@ -98,7 +99,7 @@ public class EmployeeDashboard {
 	}
 	
 /* ==================================================
- View Customer Accounts
+ View Customer Accounts backend done
 ================================================== */
 	public static void viewViewCustomerAccountsRoute(Scanner scanner) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -118,7 +119,7 @@ public class EmployeeDashboard {
 	}
 	
 /* ==================================================
- View Customer Accounts
+ View Account History
 ================================================== */
 	public static void viewCustomerHistoryRoute(Scanner scanner) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();

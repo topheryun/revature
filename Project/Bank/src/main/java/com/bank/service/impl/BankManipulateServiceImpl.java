@@ -125,10 +125,17 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	}
 
 	@Override
-	public boolean FinalizePendingAccount(int accountNumber, boolean isApproved) throws BusinessException {
-		// search for account DAO
-		// approve or deny it
-		return true;
+	public boolean FinalizePendingCustomerAccount(Customer customer, boolean isApproved) throws BusinessException {
+		boolean isFinalized = false;
+		if (isApproved) {
+			isFinalized = bankManipulateDAO.ApproveCustomerAccount(customer);
+			log.info("Customer Account has been approved.");
+		}
+		else {
+			isFinalized = bankManipulateDAO.DeleteCustomerAccount(customer);
+			log.info("Customer Account has been denyed.");
+		}
+		return isFinalized;
 	}
 
 	@Override

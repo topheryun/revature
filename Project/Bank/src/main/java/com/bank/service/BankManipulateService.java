@@ -11,7 +11,7 @@ public interface BankManipulateService {
 	public boolean DepositToAccount(int accountNumber, float amount) throws BusinessException;
 	public boolean TransferMoney(int accountNumber, int targetAccountNumber, float amount) throws BusinessException;
 	public boolean ReceiveTransfer(Account transferAccount) throws BusinessException;
-	public boolean FinalizePendingAccount(int accountNumber, boolean isApproved) throws BusinessException;
+	public boolean FinalizePendingCustomerAccount(Customer customer, boolean isApproved) throws BusinessException;
 	public boolean registerNewCustomerAccount(Customer customer, String password) throws BusinessException;
 	
 }
