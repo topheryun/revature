@@ -11,6 +11,7 @@ import com.bank.dao.impl.BankSearchDAOImpl;
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
 import com.bank.model.Customer;
+import com.bank.service.BankLogService;
 import com.bank.service.BankManipulateService;
 
 public class BankManipulateServiceImpl implements BankManipulateService {
@@ -18,9 +19,10 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	private static Logger log = Logger.getLogger(BankManipulateServiceImpl.class);
 	BankSearchDAO bankSearchDAO = new BankSearchDAOImpl();
 	BankManipulateDAO bankManipulateDAO = new BankManipulateDAOImpl();
+	BankLogService bankLogService = new BankLogServiceImpl();
 
 	@Override
-	public boolean CreateNewTransactionalAccount(String userName, float balance) throws BusinessException {
+	public boolean createNewTransactionalAccount(String userName, float balance) throws BusinessException {
 		boolean isCreated = false;
 		if (balance > 0) {
 			Random random = new Random();
@@ -31,7 +33,7 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 				isUnique = bankSearchDAO.checkForUniqueAccountNumber(randomAccountNumber);
 			}
 			Account account = new Account(userName, randomAccountNumber, balance);
-			isCreated = bankManipulateDAO.CreateNewTransactionalAccount(account);
+			isCreated = bankManipulateDAO.createNewTransactionalAccount(account);
 		}
 		else {
 			log.warn("Invalid balance. Must be greater than zero.");
@@ -40,41 +42,47 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	}
 
 	@Override
-	public boolean WithdrawFromAccount(int accountNumber, float amount) throws BusinessException {
+	public boolean withdrawFromAccount(int accountNumber, float amount) throws BusinessException {
 		boolean isWithdrawn = false;
 		Account account = bankSearchDAO.getAccount(accountNumber);
 		if (account != null) {
 			if (account.getBalance() >= amount) {
 				amount = account.getBalance() - amount;
-				isWithdrawn = bankManipulateDAO.UpdateAccount(account, amount);
+				isWithdrawn = bankManipulateDAO.updateAccount(account, amount);
 				log.info("New balance: $" + amount);
 			}
 			else {
 				log.warn("Invalid amount. Must be less than current balance.");
 			}
 		}
+		if (isWithdrawn) {
+			bankLogService.addToLog("withdraw", amount-account.getBalance(), accountNumber);
+		}
 		return isWithdrawn;
 	}
 
 	@Override
-	public boolean DepositToAccount(int accountNumber, float amount) throws BusinessException {
+	public boolean depositToAccount(int accountNumber, float amount) throws BusinessException {
 		boolean isDeposited = false;
 		Account account = bankSearchDAO.getAccount(accountNumber);
 		if (account != null) {
 			if (amount > 0) {
 				amount += account.getBalance();
-				isDeposited = bankManipulateDAO.UpdateAccount(account, amount);
+				isDeposited = bankManipulateDAO.updateAccount(account, amount);
 				log.info("New balance: $" + amount);
 			}
 			else {
 				log.warn("Invalid amount. Must be greater than zero.");
 			}
 		}
+		if (isDeposited) {
+			bankLogService.addToLog("deposit", amount-account.getBalance(), accountNumber);
+		}
 		return isDeposited;
 	}
 
 	@Override
-	public boolean TransferMoney(int accountNumber, int targetAccountNumber, float amount) throws BusinessException {
+	public boolean transferMoney(int accountNumber, int targetAccountNumber, float amount) throws BusinessException {
 		boolean isTransferedFrom = false;
 		boolean transferCreated = false;
 		Account account = bankSearchDAO.getAccount(accountNumber);
@@ -89,8 +97,8 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 					randomId = random.nextInt(8999) + 1000;
 					isUnique = bankSearchDAO.checkForUniqueId(randomId);
 				}
-				isTransferedFrom = bankManipulateDAO.UpdateAccount(account, account.getBalance() - amount);
-				transferCreated = bankManipulateDAO.CreateTransfer(randomId, targetAccount, amount);
+				isTransferedFrom = bankManipulateDAO.updateAccount(account, account.getBalance() - amount);
+				transferCreated = bankManipulateDAO.createTransfer(randomId, targetAccount, amount);
 				log.info("Transfering: $" + amount);
 			}
 			else {
@@ -101,6 +109,7 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 			log.warn("Invalid amount. Must be less than current balance.");
 		}
 		if (isTransferedFrom && transferCreated) {
+			bankLogService.addToLog("transferTo", amount, accountNumber);
 			return true;
 		}
 		else {
@@ -109,14 +118,15 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	}
 
 	@Override
-	public boolean ReceiveTransfer(Account transferAccount) throws BusinessException {
+	public boolean receiveTransfer(Account transferAccount) throws BusinessException {
 		Account account = bankSearchDAO.getAccount(transferAccount.getAccountNumber());
-		boolean isTransfered = bankManipulateDAO.UpdateAccount(
+		boolean isTransfered = bankManipulateDAO.updateAccount(
 			account, 
 			transferAccount.getBalance() + account.getBalance()
 		);
-		boolean isUpdated = bankManipulateDAO.DeleteTransfer(transferAccount);
+		boolean isUpdated = bankManipulateDAO.deleteTransfer(transferAccount);
 		if (isTransfered && isUpdated) {
+			bankLogService.addToLog("transferFrom", account.getBalance(), transferAccount.getAccountNumber());
 			return true;
 		}
 		else {
@@ -125,14 +135,14 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	}
 
 	@Override
-	public boolean FinalizePendingCustomerAccount(Customer customer, boolean isApproved) throws BusinessException {
+	public boolean finalizePendingCustomerAccount(Customer customer, boolean isApproved) throws BusinessException {
 		boolean isFinalized = false;
 		if (isApproved) {
-			isFinalized = bankManipulateDAO.ApproveCustomerAccount(customer);
+			isFinalized = bankManipulateDAO.approveCustomerAccount(customer);
 			log.info("Customer Account has been approved.");
 		}
 		else {
-			isFinalized = bankManipulateDAO.DeleteCustomerAccount(customer);
+			isFinalized = bankManipulateDAO.deleteCustomerAccount(customer);
 			log.info("Customer Account has been denyed.");
 		}
 		return isFinalized;
@@ -142,12 +152,27 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 	public boolean registerNewCustomerAccount(Customer customer, String password) throws BusinessException {
 		boolean isRegistered = false;
 		if (customer != null && customer.getContact() >= 1000000000L && customer.getContact() <= 9999999999L) {
-			isRegistered = bankManipulateDAO.RegisterNewCustomerAccount(customer, password);
+			isRegistered = bankManipulateDAO.registerNewCustomerAccount(customer, password);
 		}
 		else if (customer.getContact() < 1000000000L || customer.getContact() > 9999999999L) {
 			log.warn("Invalid contact. Must be 10 digits.");
 		}
 		return isRegistered;
+	}
+
+	@Override
+	public boolean finalizePendingTransactionalAccount(Account account, boolean isApproved) throws BusinessException {
+		boolean isFinalized = false;
+		if (isApproved) {
+			isFinalized = bankManipulateDAO.approveTransactionalAccount(account);
+			log.info("Transactional Account has been approved.");
+			bankLogService.addToLog("deposit", account.getBalance(), account.getAccountNumber());
+		}
+		else {
+			isFinalized = bankManipulateDAO.deleteTransactionalAccount(account);
+			log.info("Transactional Account has been denyed.");
+		}
+		return isFinalized;
 	}
 	
 }

@@ -6,6 +6,7 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.bank.exception.BusinessException;
+import com.bank.main.util.UI;
 import com.bank.model.Account;
 import com.bank.service.BankManipulateService;
 import com.bank.service.BankSearchService;
@@ -23,7 +24,7 @@ public class CustomerDashboard {
 		int userChoice = 0;
 		
 		do {
-			BankMain.printConsoleMenuItem("Customer Options");
+			UI.printConsoleMenuItem("Customer Options");
 			log.info("1. Create New Account.");
 			log.info("2. View Accounts.");
 			log.info("3. Withdraw Money.");
@@ -62,7 +63,7 @@ public class CustomerDashboard {
 				log.info("Please enter a number between 1 and 7.");
 				break;
 			}
-			
+			log.info("");
 		} while(userChoice != 7);
 	}
 	
@@ -72,12 +73,12 @@ public class CustomerDashboard {
 	public static void viewCreateNewAccountRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		float balance = 0;
-		BankMain.printConsoleMenuItem("Create New Account");
+		UI.printConsoleMenuItem("Create New Account");
 		try {
 			log.info("Deposit initial balance for new account.");
 			balance = Float.parseFloat(scanner.nextLine());
 			Boolean checkCreateAccount = 
-					bankManipulateService.CreateNewTransactionalAccount(userName, balance);
+					bankManipulateService.createNewTransactionalAccount(userName, balance);
 			if (checkCreateAccount) {
 				log.info("Account Creation Successful. Pending Approval.");
 			}
@@ -95,9 +96,9 @@ public class CustomerDashboard {
 ================================================== */
 	public static void viewAccountsRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
-		BankMain.printConsoleMenuItem("Accounts");
+		UI.printConsoleMenuItem("Accounts");
 		try {
-			List<Account> accountList = bankSearchService.getAllAccounts(userName);
+			List<Account> accountList = bankSearchService.getAllTransactionalAccounts(userName);
 			if (accountList != null & accountList.size() > 0) {
 				for (Account account: accountList) {
 					log.info(account);
@@ -117,10 +118,10 @@ public class CustomerDashboard {
 		int userAccountChoice = 0;
 		float userWithdrawAmount = 0;
 		
-		BankMain.printConsoleMenuItem("Withdraw Money");
+		UI.printConsoleMenuItem("Withdraw Money");
 		try {
 			log.info("Select Account.");
-			List<Account> accountList = bankSearchService.getAllAccounts(userName);
+			List<Account> accountList = bankSearchService.getAllTransactionalAccounts(userName);
 			if (accountList != null & accountList.size() > 0) {
 				int i = 1;
 				for (Account account: accountList) {
@@ -130,7 +131,7 @@ public class CustomerDashboard {
 				log.info("How much would you like to withdraw?");
 				userWithdrawAmount = Float.parseFloat(scanner.nextLine());
 				boolean checkWithdraw = 
-						bankManipulateService.WithdrawFromAccount(
+						bankManipulateService.withdrawFromAccount(
 							accountList.get(userAccountChoice-1).getAccountNumber(), 
 							userWithdrawAmount
 						);
@@ -157,10 +158,10 @@ public class CustomerDashboard {
 		int userAccountChoice = 0;
 		float userDepositAmount = 0;
 		
-		BankMain.printConsoleMenuItem("Deposit Money");
+		UI.printConsoleMenuItem("Deposit Money");
 		try {
 			log.info("Select Account.");
-			List<Account> accountList = bankSearchService.getAllAccounts(userName);
+			List<Account> accountList = bankSearchService.getAllTransactionalAccounts(userName);
 			if (accountList != null & accountList.size() > 0) {
 				int i = 1;
 				for (Account account: accountList) {
@@ -170,7 +171,7 @@ public class CustomerDashboard {
 				log.info("How much would you like to deposit?");
 				userDepositAmount = Float.parseFloat(scanner.nextLine());
 				boolean checkDeposit = 
-						bankManipulateService.DepositToAccount(
+						bankManipulateService.depositToAccount(
 							accountList.get(userAccountChoice-1).getAccountNumber(), 
 							userDepositAmount
 						);
@@ -198,10 +199,10 @@ public class CustomerDashboard {
 		int userTransferTarget = 0;
 		float userTransferAmount = 0;
 		
-		BankMain.printConsoleMenuItem("Transfer Money");
+		UI.printConsoleMenuItem("Transfer Money");
 		try {
 			log.info("Select Account.");
-			List<Account> accountList = bankSearchService.getAllAccounts(userName);
+			List<Account> accountList = bankSearchService.getAllTransactionalAccounts(userName);
 			if (accountList != null & accountList.size() > 0) {
 				int i = 1;
 				for (Account account: accountList) {
@@ -213,7 +214,7 @@ public class CustomerDashboard {
 				log.info("Enter amount to be transfered.");
 				userTransferAmount = Float.parseFloat(scanner.nextLine());
 				boolean checkTransfer = 
-						bankManipulateService.TransferMoney(
+						bankManipulateService.transferMoney(
 							accountList.get(userAccountChoice-1).getAccountNumber(),
 							userTransferTarget,
 							userTransferAmount
@@ -240,7 +241,7 @@ public class CustomerDashboard {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
 		int userTransferChoice = 0;
 		
-		BankMain.printConsoleMenuItem("Receive Transfer");
+		UI.printConsoleMenuItem("Receive Transfer");
 		try {
 			log.info("Incoming Transfers.");
 			List<Account> transfersList = bankSearchService.getAllTransfers(userName);
@@ -252,7 +253,7 @@ public class CustomerDashboard {
 			}
 			userTransferChoice = Integer.parseInt(scanner.nextLine());
 			boolean checkTransfer = 
-					bankManipulateService.ReceiveTransfer(transfersList.get(userTransferChoice-1));
+					bankManipulateService.receiveTransfer(transfersList.get(userTransferChoice-1));
 			if (checkTransfer) {
 				log.info("Transfer received.");
 			}

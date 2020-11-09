@@ -8,8 +8,10 @@ import com.bank.model.Customer;
 
 public interface BankSearchService {
 	
-	public List<Account> getAllAccounts(String userName) throws BusinessException;
+	public List<Account> getAllTransactionalAccounts(String userName) throws BusinessException;
 	public List<Customer> getPendingCustomerAccounts() throws BusinessException;
 	public List<Account> getAllTransfers(String userName) throws BusinessException;
+	public List<Account> getPendingTransactionalAccounts() throws BusinessException;
+	public List<Customer> getAllCustomerAccounts() throws BusinessException;
 	
 }

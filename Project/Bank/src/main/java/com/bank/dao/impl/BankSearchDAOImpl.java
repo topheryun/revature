@@ -97,7 +97,7 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 	}
 
 	@Override
-	public List<Account> getAllAccounts(String userName) throws BusinessException {
+	public List<Account> getAllTransactionalAccounts(String userName) throws BusinessException {
 		List<Account> accountsList = new ArrayList<>();;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.GET_ALL_TRANSACTIONAL_ACCOUNTS;
@@ -211,6 +211,53 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
 		}
 		return pendingCustomersList;
+	}
+
+	@Override
+	public List<Account> getAllPendingTransactionalAccounts() throws BusinessException {
+		List<Account> pendingAccountsList = new ArrayList<>();
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.GET_ALL_PENDING_TRANSACTIONAL_ACCOUNTS;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setBoolean(1, true);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				Account account = new Account(
+					resultSet.getString("userName"),
+					resultSet.getInt("accountNumber"),
+					resultSet.getLong("balance")
+				);
+				pendingAccountsList.add(account);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return pendingAccountsList;
+	}
+
+	@Override
+	public List<Customer> getAllCustomerAccounts() throws BusinessException {
+		List<Customer> customersList = new ArrayList<>();
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.GET_ALL_CUSTOMER_ACCOUNTS;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setBoolean(1, false);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				Customer customer = new Customer(
+					resultSet.getString("userName"),
+					resultSet.getString("firstName"),
+					resultSet.getString("lastName"),
+					resultSet.getLong("contact")
+				);
+				customersList.add(customer);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return customersList;
 	}
 
 }

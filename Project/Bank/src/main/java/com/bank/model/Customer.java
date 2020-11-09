@@ -26,6 +26,11 @@ public class Customer {
 		this.contact = contact;
 	}
 	
+	@Override
+	public String toString() {
+		return "[Account User Name: " + userName + ", First Name: " + firstName + ", Last Name: " + lastName + "]";
+	}
+	
 	public Customer() {
 	}
 	

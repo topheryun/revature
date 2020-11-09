@@ -5,6 +5,7 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.bank.exception.BusinessException;
+import com.bank.main.util.UI;
 import com.bank.model.Customer;
 import com.bank.service.BankManipulateService;
 import com.bank.service.ValidationService;
@@ -24,7 +25,7 @@ public class UserDashboard {
 		int userChoice = 0;
 		
 		do {
-			BankMain.printConsoleMenuItem("Login Menu");
+			UI.printConsoleMenuItem("Login Menu");
 			log.info("1. Customer Login");
 			log.info("2. Employee Login");
 			log.info("3. Register new account");
@@ -64,7 +65,7 @@ public class UserDashboard {
 		ValidationService validationService = new ValidationServiceImpl();
 		String userName = "", password = "";
 		
-		BankMain.printConsoleMenuItem("Customer Login");
+		UI.printConsoleMenuItem("Customer Login");
 		
 		try {
 			log.info("Enter User Name.");
@@ -93,7 +94,7 @@ public class UserDashboard {
 		int employeeId = 0;
 		String password = "";
 		
-		BankMain.printConsoleMenuItem("Employee Login");
+		UI.printConsoleMenuItem("Employee Login");
 		
 		try {
 			log.info("Enter Employee ID.");
@@ -122,7 +123,7 @@ public class UserDashboard {
 		String userName = "", firstName = "", lastName = "", password = "";
 		Long contact = 0L;
 		
-		BankMain.printConsoleMenuItem("Customer Registration");
+		UI.printConsoleMenuItem("Customer Registration");
 		
 		try {
 			log.info("Enter User Name.");

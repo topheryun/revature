@@ -6,12 +6,13 @@ import com.bank.model.Customer;
 
 public interface BankManipulateService {
 	
-	public boolean CreateNewTransactionalAccount(String userName, float balance) throws BusinessException;
-	public boolean WithdrawFromAccount(int accountNumber, float amount) throws BusinessException;
-	public boolean DepositToAccount(int accountNumber, float amount) throws BusinessException;
-	public boolean TransferMoney(int accountNumber, int targetAccountNumber, float amount) throws BusinessException;
-	public boolean ReceiveTransfer(Account transferAccount) throws BusinessException;
-	public boolean FinalizePendingCustomerAccount(Customer customer, boolean isApproved) throws BusinessException;
+	public boolean createNewTransactionalAccount(String userName, float balance) throws BusinessException;
+	public boolean withdrawFromAccount(int accountNumber, float amount) throws BusinessException;
+	public boolean depositToAccount(int accountNumber, float amount) throws BusinessException;
+	public boolean transferMoney(int accountNumber, int targetAccountNumber, float amount) throws BusinessException;
+	public boolean receiveTransfer(Account transferAccount) throws BusinessException;
+	public boolean finalizePendingCustomerAccount(Customer customer, boolean isApproved) throws BusinessException;
 	public boolean registerNewCustomerAccount(Customer customer, String password) throws BusinessException;
+	public boolean finalizePendingTransactionalAccount(Account account, boolean isApproved) throws BusinessException;
 	
 }

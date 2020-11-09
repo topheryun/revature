@@ -1,6 +1,5 @@
 package com.bank.service.impl;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -18,8 +17,8 @@ public class BankSearchServiceImpl implements BankSearchService {
 	BankSearchDAO bankSearchDAO = new BankSearchDAOImpl();
 
 	@Override
-	public List<Account> getAllAccounts(String userName) throws BusinessException {
-		List<Account> accountsList = bankSearchDAO.getAllAccounts(userName);
+	public List<Account> getAllTransactionalAccounts(String userName) throws BusinessException {
+		List<Account> accountsList = bankSearchDAO.getAllTransactionalAccounts(userName);
 		if (accountsList.size() == 0) {
 			log.warn("No Account Records Available.");
 		}
@@ -37,12 +36,30 @@ public class BankSearchServiceImpl implements BankSearchService {
 
 	@Override
 	public List<Account> getAllTransfers(String userName) throws BusinessException {
-		List<Account> accountsList = getAllAccounts(userName);
+		List<Account> accountsList = getAllTransactionalAccounts(userName);
 		List<Account> transfersList = bankSearchDAO.getAllTransfers(accountsList);
 		if (transfersList.size() == 0) {
 			log.warn("No Transfers Available.");
 		}
 		return transfersList;
+	}
+
+	@Override
+	public List<Account> getPendingTransactionalAccounts() throws BusinessException {
+		List<Account> accountsList = bankSearchDAO.getAllPendingTransactionalAccounts();
+		if (accountsList.size() == 0) {
+			log.warn("No Transactional Accounts Available.");
+		}
+		return accountsList;
+	}
+
+	@Override
+	public List<Customer> getAllCustomerAccounts() throws BusinessException {
+		List<Customer> customersList = bankSearchDAO.getAllCustomerAccounts();
+		if (customersList.size() == 0) {
+			log.warn("No Customer Accounts Available.");
+		}
+		return customersList;
 	}
 
 }

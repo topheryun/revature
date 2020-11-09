@@ -15,7 +15,7 @@ public class Account {
 	
 	@Override
 	public String toString() {
-		return "Account ID: " + accountNumber + ", Balance: " + balance;
+		return "[Account ID: " + accountNumber + ", Balance: " + balance + "]";
 	}
 	
 	public Account() {

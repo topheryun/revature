@@ -20,7 +20,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	private static Logger log = Logger.getLogger(BankManipulateDAOImpl.class);
 
 	@Override
-	public boolean CreateNewTransactionalAccount(Account account) throws BusinessException {
+	public boolean createNewTransactionalAccount(Account account) throws BusinessException {
 		boolean isCreated = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.REGISTER_NEW_TRANSACTIONAL_ACCOUNT;
@@ -40,7 +40,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 	
 	@Override
-	public boolean RegisterNewCustomerAccount(Customer customer, String password)
+	public boolean registerNewCustomerAccount(Customer customer, String password)
 			throws BusinessException {
 		boolean isRegistered = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
@@ -71,7 +71,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 
 	@Override
-	public boolean UpdateAccount(Account account, float amount) throws BusinessException {
+	public boolean updateAccount(Account account, float amount) throws BusinessException {
 		boolean isUpdated = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.UPDATE_ACCOUNT_BALANCE;
@@ -88,7 +88,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 
 	@Override
-	public boolean CreateTransfer(int id, Account targetAccount, float amount) throws BusinessException {
+	public boolean createTransfer(int id, Account targetAccount, float amount) throws BusinessException {
 		boolean isCreated = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.CREATE_NEW_TRANSFER;
@@ -106,7 +106,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 
 	@Override
-	public boolean DeleteTransfer(Account transfer) throws BusinessException {
+	public boolean deleteTransfer(Account transfer) throws BusinessException {
 		boolean isDeleted = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.DELETE_TRANSFER;
@@ -122,7 +122,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 
 	@Override
-	public boolean ApproveCustomerAccount(Customer customer) throws BusinessException {
+	public boolean approveCustomerAccount(Customer customer) throws BusinessException {
 		boolean isApproved = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.APPROVE_CUSTOMER_ACCOUNT;
@@ -139,12 +139,45 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 
 	@Override
-	public boolean DeleteCustomerAccount(Customer customer) throws BusinessException {
+	public boolean deleteCustomerAccount(Customer customer) throws BusinessException {
 		boolean isDeleted = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.DELETE_CUSTOMER_ACCOUNT;
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, customer.getUserName());
+			preparedStatement.executeUpdate();
+			isDeleted = true;
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return isDeleted;
+	}
+
+	@Override
+	public boolean approveTransactionalAccount(Account account) throws BusinessException {
+		boolean isApproved = false;
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.APPROVE_TRANSACTIONAL_ACCOUNT;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setBoolean(1, false);
+			preparedStatement.setInt(2, account.getAccountNumber());
+			preparedStatement.executeUpdate();
+			isApproved = true;
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
+		}
+		return isApproved;
+	}
+
+	@Override
+	public boolean deleteTransactionalAccount(Account account) throws BusinessException {
+		boolean isDeleted = false;
+		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
+			String sql = BankDbQueries.DELETE_TRANSACTIONAL_ACCOUNT;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, account.getAccountNumber());
 			preparedStatement.executeUpdate();
 			isDeleted = true;
 		} catch (ClassNotFoundException | SQLException e) {
