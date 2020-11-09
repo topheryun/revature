@@ -3504,3 +3504,132 @@
 [INFO] com.bank.main.UserDashboard: 4. Exit    08-11-2020
 [INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    08-11-2020
 [INFO] com.bank.main.UserDashboard:     08-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.dao.impl.BankManipulateDAOImpl: Username already exists.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: Customer Account has been denyed.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: Customer Account has been denyed.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: Customer Account has been denyed.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.dao.impl.BankManipulateDAOImpl: Username already exists.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.dao.impl.BankManipulateDAOImpl: Username already exists.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $376.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $375.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    09-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Transfers Available.    09-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    09-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    09-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    09-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    09-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    09-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.util.UI: *- Transfer Money -*    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. [Account ID: 1234, Balance: 250.00]    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. [Account ID: 5928, Balance: 1000.00]    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. [Account ID: 8383, Balance: 323.00]    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. [Account ID: 1111, Balance: 375.00]    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: Enter account number to transfer to.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: Enter amount to be transfered.    09-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: Transfering: $5.00    09-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added transferTo to log.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: $5.00 is transfering to account 8383.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard:     09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    09-11-2020
+[INFO] com.bank.main.CustomerDashboard:     09-11-2020
+[INFO] com.bank.main.UserDashboard:     09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    09-11-2020
+[INFO] com.bank.main.util.UI: ==============================    09-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    09-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    09-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    09-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    09-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    09-11-2020
+[INFO] com.bank.main.UserDashboard:     09-11-2020

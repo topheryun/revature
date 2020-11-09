@@ -61,7 +61,6 @@ public class BankLogDAOImpl implements BankLogDAO {
 			log.error(e);
 			throw new BusinessException(BankDbUtilProps.ERROR_MESSAGE);
 		}
-		
 	}
 
 	@Override
