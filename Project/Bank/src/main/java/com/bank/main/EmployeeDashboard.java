@@ -32,7 +32,7 @@ public class EmployeeDashboard {
 			log.info("1. Approve Pending Customer Accounts.");
 			log.info("2. Approve Pending Transactional Accounts.");
 			log.info("3. View Customer Information.");
-			log.info("4. Exit.");
+			log.info("0. Exit.");
 			try {
 				userChoice = Integer.parseInt(scanner.nextLine());
 			} catch (NumberFormatException e) {	
@@ -48,15 +48,15 @@ public class EmployeeDashboard {
 			case 3:
 				viewViewCustomerInformationRoute(scanner);
 				break;
-			case 4:
+			case 0:
 				log.info("Returning to main menu.");
 				break;
 			default: 
-				log.info("Please enter a number between 1 and 4.");
+				log.info("Please enter a number between 1 and 3.");
 				break;
 			}
 			log.info("");
-		} while(userChoice != 4);
+		} while(userChoice != 0);
 	}
 	
 /* ==================================================
@@ -78,19 +78,24 @@ public class EmployeeDashboard {
 					log.info(i++ + ". " + customer);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				log.info("1. Approve\n2. Deny");
-				isApproved = Integer.parseInt(scanner.nextLine()) == 1 ? true : false;
-				boolean isFinalized = 
-						bankManipulateService.finalizePendingCustomerAccount(
-							customerList.get(userAccountChoice-1), 
-							isApproved
-						);
-				if (isFinalized) {
-					log.info("Account status has been finalized.");
-				}
-				else {
-					log.info("Failed to finalize account status.");
-				}
+				if (userAccountChoice != 0) {
+					log.info("1. Approve\n2. Deny\n0. Exit");
+					int choice = Integer.parseInt(scanner.nextLine());
+					if (choice != 0) {
+						isApproved = choice == 1 ? true : false;
+						boolean isFinalized = 
+								bankManipulateService.finalizePendingCustomerAccount(
+									customerList.get(userAccountChoice-1), 
+									isApproved
+								);
+						if (isFinalized) {
+							log.info("Account status has been finalized.");
+						}
+						else {
+							log.info("Failed to finalize account status.");
+						}
+					}
+				}			
 			}
 			else {
 				log.info("No Pending Accounts.");
@@ -122,18 +127,23 @@ public class EmployeeDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				log.info("1. Approve\n2. Deny");
-				isApproved = Integer.parseInt(scanner.nextLine()) == 1 ? true : false;
-				boolean isFinalized = 
-						bankManipulateService.finalizePendingTransactionalAccount(
-							accountsList.get(userAccountChoice-1), 
-							isApproved
-						);
-				if (isFinalized) {
-					log.info("Account status has been finalized.");
-				}
-				else {
-					log.info("Failed to finalize account status.");
+				if (userAccountChoice != 0) {
+					log.info("1. Approve\n2. Deny\n0. Exit");
+					int choice = Integer.parseInt(scanner.nextLine());
+					if (choice != 0) {
+						isApproved = choice == 1 ? true : false;
+						boolean isFinalized = 
+								bankManipulateService.finalizePendingTransactionalAccount(
+									accountsList.get(userAccountChoice-1), 
+									isApproved
+								);
+						if (isFinalized) {
+							log.info("Account status has been finalized.");
+						}
+						else {
+							log.info("Failed to finalize account status.");
+						}
+					}
 				}
 			}
 			else {
@@ -165,28 +175,32 @@ public class EmployeeDashboard {
 					log.info(i++ + ". " + customer);
 				}
 				choice = Integer.parseInt(scanner.nextLine());
-				log.info("Select Transactional Account.");
-				List<Account> accountList = bankSearchService.getAllTransactionalAccounts(
-						customerList.get(choice-1).getUserName());
-				if (accountList != null & accountList.size() > 0) {
-					int j = 1;
-					for (Account account: accountList) {
-						log.info(j++ + ". " + account);
-					}
-					choice = Integer.parseInt(scanner.nextLine());
-					log.info("Account History:");
-					List<Log> logList = bankLogService.getAccountHistory(accountList.get(choice-1));
-					if (logList != null && logList.size() > 0) {
-						for (Log record: logList) {
-							log.info(record);
+				if (choice != 0) {
+					log.info("Select Transactional Account.");
+					List<Account> accountList = bankSearchService.getAllTransactionalAccounts(
+							customerList.get(choice-1).getUserName());
+					if (accountList != null & accountList.size() > 0) {
+						int j = 1;
+						for (Account account: accountList) {
+							log.info(j++ + ". " + account);
+						}
+						choice = Integer.parseInt(scanner.nextLine());
+						if (choice != 0) {
+							log.info("Account History:");
+							List<Log> logList = bankLogService.getAccountHistory(accountList.get(choice-1));
+							if (logList != null && logList.size() > 0) {
+								for (Log record: logList) {
+									log.info(record);
+								}
+							}
+							else {
+								log.warn("Could not find Account History.");
+							}
 						}
 					}
 					else {
-						log.warn("Could not find Account History.");
+						log.warn("Could not find any Transactional Accounts.");
 					}
-				}
-				else {
-					log.warn("Could not find any Transactional Accounts.");
 				}
 			}
 			else {

@@ -31,7 +31,7 @@ public class CustomerDashboard {
 			log.info("4. Deposit Money.");
 			log.info("5. Transfer Money.");
 			log.info("6. Receive Transfer.");
-			log.info("7. Exit.");
+			log.info("0. Exit.");
 			try {
 				userChoice = Integer.parseInt(scanner.nextLine());
 			} catch (NumberFormatException e) {	
@@ -56,15 +56,15 @@ public class CustomerDashboard {
 			case 6: 
 				viewReceiveTransferRoute(scanner, userName);
 				break;
-			case 7:
+			case 0:
 				log.info("Returning to main menu.");
 				break;
 			default:
-				log.info("Please enter a number between 1 and 7.");
+				log.info("Please enter a number between 1 and 6.");
 				break;
 			}
 			log.info("");
-		} while(userChoice != 7);
+		} while(userChoice != 0);
 	}
 	
 /* ==================================================
@@ -128,18 +128,20 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				log.info("How much would you like to withdraw?");
-				userWithdrawAmount = Float.parseFloat(scanner.nextLine());
-				boolean checkWithdraw = 
-						bankManipulateService.withdrawFromAccount(
-							accountList.get(userAccountChoice-1).getAccountNumber(), 
-							userWithdrawAmount
-						);
-				if (checkWithdraw) {
-					log.info("$" + userWithdrawAmount + " has been withdrawn from your account.");
-				}
-				else {
-					log.warn("Could not withdraw from account.");
+				if (userAccountChoice != 0) {
+					log.info("How much would you like to withdraw?");
+					userWithdrawAmount = Float.parseFloat(scanner.nextLine());
+					boolean checkWithdraw = 
+							bankManipulateService.withdrawFromAccount(
+								accountList.get(userAccountChoice-1).getAccountNumber(), 
+								userWithdrawAmount
+							);
+					if (checkWithdraw) {
+						log.info(String.format("$%.2f has been withdrawan from your account.", userWithdrawAmount));
+					}
+					else {
+						log.warn("Could not withdraw from account.");
+					}
 				}
 			}
 		} catch (BusinessException e) {
@@ -168,18 +170,20 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				log.info("How much would you like to deposit?");
-				userDepositAmount = Float.parseFloat(scanner.nextLine());
-				boolean checkDeposit = 
-						bankManipulateService.depositToAccount(
-							accountList.get(userAccountChoice-1).getAccountNumber(), 
-							userDepositAmount
-						);
-				if (checkDeposit) {
-					log.info("$" + userDepositAmount + " has been deposited to your account.");
-				}
-				else {
-					log.warn("Could not deposit from account.");
+				if (userAccountChoice != 0) {
+					log.info("How much would you like to deposit?");
+					userDepositAmount = Float.parseFloat(scanner.nextLine());
+					boolean checkDeposit = 
+							bankManipulateService.depositToAccount(
+								accountList.get(userAccountChoice-1).getAccountNumber(), 
+								userDepositAmount
+							);
+					if (checkDeposit) {
+						log.info(String.format("$%.2f has been deposited to your account.", userDepositAmount));
+					}
+					else {
+						log.warn("Could not deposit from account.");
+					}
 				}
 			}
 		} catch (BusinessException e) {
@@ -209,21 +213,23 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				log.info("Enter account number to transfer to.");
-				userTransferTarget = Integer.parseInt(scanner.nextLine());
-				log.info("Enter amount to be transfered.");
-				userTransferAmount = Float.parseFloat(scanner.nextLine());
-				boolean checkTransfer = 
-						bankManipulateService.transferMoney(
-							accountList.get(userAccountChoice-1).getAccountNumber(),
-							userTransferTarget,
-							userTransferAmount
-						);
-				if (checkTransfer) {
-					log.info("$" + userTransferAmount + " is transfering to account #" + userTransferTarget + ".");
-				}
-				else {
-					log.warn("Could not transfer.");
+				if (userAccountChoice != 0) {
+					log.info("Enter account number to transfer to.");
+					userTransferTarget = Integer.parseInt(scanner.nextLine());
+					log.info("Enter amount to be transfered.");
+					userTransferAmount = Float.parseFloat(scanner.nextLine());
+					boolean checkTransfer = 
+							bankManipulateService.transferMoney(
+								accountList.get(userAccountChoice-1).getAccountNumber(),
+								userTransferTarget,
+								userTransferAmount
+							);
+					if (checkTransfer) {
+						log.info(String.format("$%.2f is transfering to account %d.", userTransferAmount, userTransferTarget));
+					}
+					else {
+						log.warn("Could not transfer.");
+					}
 				}
 			}
 		} catch (BusinessException e) {
@@ -250,15 +256,17 @@ public class CustomerDashboard {
 				for (Account transfer: transfersList) {
 					log.info(i++ + ". " + transfer);
 				}
-			}
-			userTransferChoice = Integer.parseInt(scanner.nextLine());
-			boolean checkTransfer = 
-					bankManipulateService.receiveTransfer(transfersList.get(userTransferChoice-1));
-			if (checkTransfer) {
-				log.info("Transfer received.");
-			}
-			else {
-				log.info("Could not receive transfer.");
+				userTransferChoice = Integer.parseInt(scanner.nextLine());
+				if (userTransferChoice != 0) {
+					boolean checkTransfer = 
+							bankManipulateService.receiveTransfer(transfersList.get(userTransferChoice-1));
+					if (checkTransfer) {
+						log.info("Transfer received.");
+					}
+					else {
+						log.info("Could not receive transfer.");
+					}
+				}
 			}
 		} catch (BusinessException e) {
 			log.error(e.getMessage());

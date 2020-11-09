@@ -40,8 +40,7 @@ public class BankManipulateDAOImpl implements BankManipulateDAO {
 	}
 	
 	@Override
-	public boolean registerNewCustomerAccount(Customer customer, String password)
-			throws BusinessException {
+	public boolean registerNewCustomerAccount(Customer customer, String password) throws BusinessException {
 		boolean isRegistered = false;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.CHECK_CUSTOMER_USERNAME_DUPLICATE;

@@ -28,7 +28,8 @@ public class Customer {
 	
 	@Override
 	public String toString() {
-		return "[Account User Name: " + userName + ", First Name: " + firstName + ", Last Name: " + lastName + "]";
+		return "[Account User Name: " + userName + ", First Name: " + firstName + 
+				", Last Name: " + lastName + ", Contact: " + contact + "]";
 	}
 	
 	public Customer() {

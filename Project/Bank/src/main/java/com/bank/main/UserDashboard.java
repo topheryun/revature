@@ -29,7 +29,7 @@ public class UserDashboard {
 			log.info("1. Customer Login");
 			log.info("2. Employee Login");
 			log.info("3. Register new account");
-			log.info("4. Exit");
+			log.info("0. Exit");
 			try {
 				userChoice = Integer.parseInt(scanner.nextLine());
 			} catch (NumberFormatException e) {	
@@ -45,7 +45,7 @@ public class UserDashboard {
 			case 3:
 				viewCustomerRegisterRoute(scanner);
 				break;
-			case 4:
+			case 0:
 				log.info("Thank you for user Chris' Super Cool Bank uwu.");
 				break;
 			default:
@@ -53,8 +53,7 @@ public class UserDashboard {
 				break;
 			}
 			log.info("");
-		} while(userChoice != 4);
-		
+		} while(userChoice != 0);
 		scanner.close();
 	}
 	

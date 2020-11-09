@@ -30,7 +30,7 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 			preparedStatement.setString(1, userName);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if (resultSet.next()) {
-				if (!resultSet.getBoolean("isPending") && resultSet.getString("password").equals(password)) {
+				if (!resultSet.getBoolean("isPending")) {
 					if (resultSet.getString("password").equals(password)) {
 						checkUserLogin = true;
 					}
@@ -123,7 +123,7 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 
 	@Override
 	public Account getAccount(int accountNumber) throws BusinessException {
-		Account account = new Account();
+		Account account = null;
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.GET_ACCOUNT;
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -135,9 +135,6 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 					resultSet.getInt("accountNumber"),
 					resultSet.getFloat("balance")
 				);
-			}
-			else {
-				account = null;
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);

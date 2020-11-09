@@ -15,7 +15,7 @@ public class Account {
 	
 	@Override
 	public String toString() {
-		return "[Account ID: " + accountNumber + ", Balance: " + balance + "]";
+		return String.format("[Account ID: %d, Balance: %.2f]", accountNumber, balance);
 	}
 	
 	public Account() {

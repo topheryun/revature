@@ -22,16 +22,17 @@ public class Log {
 	public String toString() {
 		String ret = "[" + ldt + "] ";
 		if (type.equals("deposit")) {
-			ret += "Deposited: $" + amount;
+			ret += String.format("Deposited: $%.2f", amount);
 		}
 		else if (type.equals("withdraw")) {
-			ret += "Withdrew: $" + (amount * -1);
+			amount *= -1;
+			ret += String.format("Withdrew: $%.2f", amount);
 		}
 		else if (type.equals("transferTo")) {
-			ret += "Transfered: $" + amount;
+			ret += String.format("Transfered: $%.2f", amount);
 		}
 		else if (type.equals("transferFrom")) {
-			ret += "Received: $" + amount;
+			ret += String.format("Received: $%.2f", amount);
 		}
 		return ret;
 	}

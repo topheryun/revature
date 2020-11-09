@@ -46,10 +46,10 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 		boolean isWithdrawn = false;
 		Account account = bankSearchDAO.getAccount(accountNumber);
 		if (account != null) {
-			if (account.getBalance() >= amount) {
+			if (account.getBalance() >= amount && amount > 0) {
 				amount = account.getBalance() - amount;
 				isWithdrawn = bankManipulateDAO.updateAccount(account, amount);
-				log.info("New balance: $" + amount);
+				log.info(String.format("New balance: $%.2f", amount));
 			}
 			else {
 				log.warn("Invalid amount. Must be less than current balance.");
@@ -69,7 +69,7 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 			if (amount > 0) {
 				amount += account.getBalance();
 				isDeposited = bankManipulateDAO.updateAccount(account, amount);
-				log.info("New balance: $" + amount);
+				log.info(String.format("New balance: $%.2f", amount));
 			}
 			else {
 				log.warn("Invalid amount. Must be greater than zero.");
@@ -88,25 +88,30 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 		Account account = bankSearchDAO.getAccount(accountNumber);
 		Account targetAccount = bankSearchDAO.getAccount(targetAccountNumber);
 		
-		if (account != null && targetAccount != null && account.getBalance() >= amount) {
-			if (targetAccountNumber == targetAccount.getAccountNumber()) {
-				Random random = new Random();
-				int randomId = 0;
-				boolean isUnique = false;
-				while (!isUnique) {
-					randomId = random.nextInt(8999) + 1000;
-					isUnique = bankSearchDAO.checkForUniqueId(randomId);
+		if (amount > 0) {
+			if (account != null && targetAccount != null && account.getBalance() >= amount) {
+				if (targetAccountNumber == targetAccount.getAccountNumber()) {
+					Random random = new Random();
+					int randomId = 0;
+					boolean isUnique = false;
+					while (!isUnique) {
+						randomId = random.nextInt(8999) + 1000;
+						isUnique = bankSearchDAO.checkForUniqueId(randomId);
+					}
+					isTransferedFrom = bankManipulateDAO.updateAccount(account, account.getBalance() - amount);
+					transferCreated = bankManipulateDAO.createTransfer(randomId, targetAccount, amount);
+					log.info(String.format("Transfering: $%.2f", amount));
 				}
-				isTransferedFrom = bankManipulateDAO.updateAccount(account, account.getBalance() - amount);
-				transferCreated = bankManipulateDAO.createTransfer(randomId, targetAccount, amount);
-				log.info("Transfering: $" + amount);
+				else {
+					log.warn("Could not locate target account number.");
+				}
 			}
 			else {
-				log.warn("Could not locate target account number.");
+				log.warn("Invalid amount. Must be less than current balance.");
 			}
 		}
 		else {
-			log.warn("Invalid amount. Must be less than current balance.");
+			log.warn("Transfer amount must be greater than zero.");
 		}
 		if (isTransferedFrom && transferCreated) {
 			bankLogService.addToLog("transferTo", amount, accountNumber);
@@ -154,7 +159,7 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 		if (customer != null && customer.getContact() >= 1000000000L && customer.getContact() <= 9999999999L) {
 			isRegistered = bankManipulateDAO.registerNewCustomerAccount(customer, password);
 		}
-		else if (customer.getContact() < 1000000000L || customer.getContact() > 9999999999L) {
+		else {
 			log.warn("Invalid contact. Must be 10 digits.");
 		}
 		return isRegistered;
