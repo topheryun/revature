@@ -1,5 +1,13 @@
 package com.app.jdbc;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 import com.app.jdbc.dao.PlayerDAO;
 import com.app.jdbc.dao.impl.PlayerDAOImpl;
 import com.app.jdbc.exception.BusinessException;
@@ -10,13 +18,52 @@ public class JdbcDemoMain {
 	public static void main(String[] args) {
 		
 		
-		testcreatePlayer(105, "Fatima", 23, "F", "Rockers", 8574829174L);
-		testGetPlayerById(105);
-		testUpdatePlayerContact(105, 1234567890L);
-		testGetPlayerById(105);
-		testDeletePlayer(105);
-		testGetPlayerById(105);
+//		testcreatePlayer(105, "Fatima", 23, "F", "Rockers", 8574829174L);
+//		testGetPlayerById(105);
+//		testUpdatePlayerContact(105, 1234567890L);
+//		testGetPlayerById(105);
+//		testDeletePlayer(105);
+//		testGetPlayerById(105);
 		
+		String s="10/13/2000 11:13"; //dd.MM.yyyy
+		
+		SimpleDateFormat sdf=new SimpleDateFormat("MM/dd/yyyy hh:mm");
+		sdf.setLenient(false);
+		
+		Date d=null;
+		
+		try {
+			d=sdf.parse(s); //takes String object and parses it to date obj
+			System.out.println("date parsed is = "+d);
+		} catch (ParseException e) {
+			System.out.println(e);
+		}
+		
+//		LocalDate ld = LocalDate.now();
+//		LocalTime lt = LocalTime.now();
+		LocalDateTime ldt = LocalDateTime.now();
+		System.out.println(ldt);
+		
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm");
+		String formattedDateTime = ldt.format(formatter);
+		System.out.println(formattedDateTime);
+
+		PlayerDAO playerDAO = new PlayerDAOImpl();
+//		try {
+//			playerDAO.addDate(ldt);
+//		} catch (BusinessException e) {
+//			System.out.println(e);
+//		}
+		
+		try {
+			ldt = playerDAO.getDate(1);
+		} catch (BusinessException e) {
+			System.out.println(e);
+		}
+		System.out.println(ldt);
+		
+		formattedDateTime = ldt.format(formatter);
+		System.out.println(formattedDateTime);
 		
 	}
 	

@@ -4,6 +4,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.util.Date;
 
 import com.app.jdbc.dao.PlayerDAO;
 import com.app.jdbc.dbutil.PostgresSqlConnection;
@@ -16,8 +19,7 @@ public class PlayerDAOImpl implements PlayerDAO {
 	public int createPlayer(Player player) throws BusinessException {
 		int c = 0;
 		try(Connection connection = PostgresSqlConnection.getConnection()) {
-			String sql = "INSERT INTO roc_myrevature.player(id, name, age, gender, teamname, contact) " + 
-					"Values(?,?,?,?,?,?)";
+			String sql = PlayerQueries.INSERTPLAYER;
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, player.getId());
 			preparedStatement.setString(2, player.getName());
@@ -29,7 +31,7 @@ public class PlayerDAOImpl implements PlayerDAO {
 			c = preparedStatement.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
 			System.out.println(e);
-			throw new BusinessException("Internal Error Occured. Contact SYSADMIN");
+			throw new BusinessException(PlayerQueries.INTERNALERRORMESSAGE);
 		}
 		
 		return c;
@@ -49,7 +51,7 @@ public class PlayerDAOImpl implements PlayerDAO {
 			
 		} catch (ClassNotFoundException | SQLException e) {
 			System.out.println(e);
-			throw new BusinessException("Internal Error Occured. Contact SYSADMIN");
+			throw new BusinessException(PlayerQueries.INTERNALERRORMESSAGE);
 		}
 		
 		return c;
@@ -74,7 +76,7 @@ public class PlayerDAOImpl implements PlayerDAO {
 	public Player getPlayerById(int id) throws BusinessException {
 		Player player = null;
 		try (Connection connection = PostgresSqlConnection.getConnection()) {
-			String sql = "select name, age, gender, teamname, contact from roc_myrevature.player where id=?";
+			String sql = PlayerQueries.GETPLAYERBYID;
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, id);
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -94,6 +96,42 @@ public class PlayerDAOImpl implements PlayerDAO {
 			throw new BusinessException("Internal error occured.. Kindly contact SYSADMIN");
 		}
 		return player;
+	}
+
+	@Override
+	public void addDate(LocalDateTime ldt) throws BusinessException {
+		try (Connection connection = PostgresSqlConnection.getConnection()) {
+			String sql = "insert into roc_myrevature.dates values(?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, 1);
+			preparedStatement.setTimestamp(2, Timestamp.valueOf(ldt));
+			preparedStatement.executeUpdate();
+			System.out.println("hopefully added timestamp");
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occured.. Kindly contact SYSADMIN");
+		}
+		
+	}
+
+	@Override
+	public LocalDateTime getDate(int id) throws BusinessException {
+		LocalDateTime ldt = null;
+		try (Connection connection = PostgresSqlConnection.getConnection()) {
+			String sql = "select id, timestamp from roc_myrevature.dates where id=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, 1);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				Timestamp temp = resultSet.getTimestamp("timestamp");
+				ldt = temp.toLocalDateTime();
+			}
+			System.out.println("hopefully added timestamp");
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occured.. Kindly contact SYSADMIN");
+		}
+		return ldt;
 	}
 
 }

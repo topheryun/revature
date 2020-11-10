@@ -1,5 +1,6 @@
 package com.app.jdbc.exception;
 
+@SuppressWarnings("serial")
 public class BusinessException extends Exception {
 	
 	public BusinessException() {
