@@ -75,6 +75,9 @@ public class BankManipulateServiceImpl implements BankManipulateService {
 				log.warn("Invalid amount. Must be greater than zero.");
 			}
 		}
+		else {
+			log.warn("Account not found.");
+		}
 		if (isDeposited) {
 			bankLogService.addToLog("deposit", amount-account.getBalance(), accountNumber);
 		}

@@ -3633,3 +3633,1345 @@
 [INFO] com.bank.main.UserDashboard: 0. Exit    09-11-2020
 [INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    09-11-2020
 [INFO] com.bank.main.UserDashboard:     09-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    10-11-2020
+[INFO] com.bank.main.util.UI: ==============================    10-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    10-11-2020
+[INFO] com.bank.main.util.UI: ==============================    10-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    10-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    10-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    10-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    10-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    10-11-2020
+[INFO] com.bank.main.UserDashboard:     10-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[ERROR] com.bank.main.UserDashboard: For input string: "gdsaf"    11-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Not a number.    11-11-2020
+[ERROR] com.bank.main.UserDashboard: For input string: "gaesgsfs"    11-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Not a number.    11-11-2020
+[ERROR] com.bank.main.UserDashboard: For input string: "gsas"    11-11-2020
+[INFO] com.bank.main.UserDashboard: Please enter a number between 1 and 4.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Not a number.    11-11-2020
+[ERROR] com.bank.main.UserDashboard: For input string: "fsdagds"    11-11-2020
+[INFO] com.bank.main.UserDashboard: Please enter a number between 1 and 4.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Please enter a number between 1 and 4.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid contact. Must be 10 digits.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[ERROR] com.bank.main.UserDashboard: java.lang.NumberFormatException: For input string: "fds"    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[ERROR] com.bank.main.UserDashboard: java.lang.NumberFormatException: For input string: "fsda"    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[ERROR] com.bank.main.UserDashboard: java.lang.NumberFormatException: For input string: "gwgw"    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Phone number must be a 10 digit number.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid contact. Must be 10 digits.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Registration Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Registration -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter First Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Last Name    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter 10-digit Phone Number    11-11-2020
+[INFO] com.bank.main.UserDashboard: Registration Pending.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Must enter a proper Employee ID (number).    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find ID.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: For input string: "fsadfdsa"    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Returning to main menu.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find user name.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Returning to main menu.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Thank you for user Chris' Super Cool Bank uwu.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Please enter a number between 1 and 3.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: chrisith, First Name: Chris, Last Name: Guy, Contact: 5189477648]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: ostew, First Name: Oliver, Last Name: Stewart, Contact: 8711537547]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: monclipclop, First Name: Bob, Last Name: Harmon, Contact: 1827310921]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account User Name: bakerinsurance, First Name: Ron, Last Name: Baker, Contact: 3718293755]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 5. [Account User Name: geas, First Name: fwa, Last Name: fwa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 6. [Account User Name: asfeagw, First Name: fdsa, Last Name: fds, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 7. [Account User Name: gesags, First Name: fsad, Last Name: fdsa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 8. [Account User Name: test, First Name: Te, Last Name: St, Contact: 1234567890]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 9. [Account User Name: fsad, First Name: fdsa, Last Name: fdas, Contact: 1231231231]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: For input string: "vsad"    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: chrisith, First Name: Chris, Last Name: Guy, Contact: 5189477648]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: ostew, First Name: Oliver, Last Name: Stewart, Contact: 8711537547]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: monclipclop, First Name: Bob, Last Name: Harmon, Contact: 1827310921]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account User Name: bakerinsurance, First Name: Ron, Last Name: Baker, Contact: 3718293755]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 5. [Account User Name: geas, First Name: fwa, Last Name: fwa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 6. [Account User Name: asfeagw, First Name: fdsa, Last Name: fds, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 7. [Account User Name: gesags, First Name: fsad, Last Name: fdsa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 8. [Account User Name: test, First Name: Te, Last Name: St, Contact: 1234567890]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 9. [Account User Name: fsad, First Name: fdsa, Last Name: fdas, Contact: 1231231231]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: chrisith, First Name: Chris, Last Name: Guy, Contact: 5189477648]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: ostew, First Name: Oliver, Last Name: Stewart, Contact: 8711537547]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: monclipclop, First Name: Bob, Last Name: Harmon, Contact: 1827310921]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account User Name: bakerinsurance, First Name: Ron, Last Name: Baker, Contact: 3718293755]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 5. [Account User Name: geas, First Name: fwa, Last Name: fwa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 6. [Account User Name: asfeagw, First Name: fdsa, Last Name: fds, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 7. [Account User Name: gesags, First Name: fsad, Last Name: fdsa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 8. [Account User Name: test, First Name: Te, Last Name: St, Contact: 1234567890]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 9. [Account User Name: fsad, First Name: fdsa, Last Name: fdas, Contact: 1231231231]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve
+2. Deny
+0. Exit    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: That account does not exist.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: chrisith, First Name: Chris, Last Name: Guy, Contact: 5189477648]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: ostew, First Name: Oliver, Last Name: Stewart, Contact: 8711537547]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: monclipclop, First Name: Bob, Last Name: Harmon, Contact: 1827310921]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account User Name: bakerinsurance, First Name: Ron, Last Name: Baker, Contact: 3718293755]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 5. [Account User Name: geas, First Name: fwa, Last Name: fwa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 6. [Account User Name: asfeagw, First Name: fdsa, Last Name: fds, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 7. [Account User Name: gesags, First Name: fsad, Last Name: fdsa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 8. [Account User Name: test, First Name: Te, Last Name: St, Contact: 1234567890]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 9. [Account User Name: fsad, First Name: fdsa, Last Name: fdas, Contact: 1231231231]    11-11-2020
+[WARN] com.bank.main.EmployeeDashboard: Must select a number from the list.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve
+2. Deny
+0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: chrisith, First Name: Chris, Last Name: Guy, Contact: 5189477648]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: ostew, First Name: Oliver, Last Name: Stewart, Contact: 8711537547]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: monclipclop, First Name: Bob, Last Name: Harmon, Contact: 1827310921]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account User Name: bakerinsurance, First Name: Ron, Last Name: Baker, Contact: 3718293755]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 5. [Account User Name: geas, First Name: fwa, Last Name: fwa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 6. [Account User Name: asfeagw, First Name: fdsa, Last Name: fds, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 7. [Account User Name: gesags, First Name: fsad, Last Name: fdsa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 8. [Account User Name: test, First Name: Te, Last Name: St, Contact: 1234567890]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 9. [Account User Name: fsad, First Name: fdsa, Last Name: fdas, Contact: 1231231231]    11-11-2020
+[WARN] com.bank.main.EmployeeDashboard: Must select a number from the list.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: chrisith, First Name: Chris, Last Name: Guy, Contact: 5189477648]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: ostew, First Name: Oliver, Last Name: Stewart, Contact: 8711537547]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: monclipclop, First Name: Bob, Last Name: Harmon, Contact: 1827310921]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account User Name: bakerinsurance, First Name: Ron, Last Name: Baker, Contact: 3718293755]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 5. [Account User Name: geas, First Name: fwa, Last Name: fwa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 6. [Account User Name: asfeagw, First Name: fdsa, Last Name: fds, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 7. [Account User Name: gesags, First Name: fsad, Last Name: fdsa, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 8. [Account User Name: test, First Name: Te, Last Name: St, Contact: 1234567890]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 9. [Account User Name: fsad, First Name: fdsa, Last Name: fdas, Contact: 1231231231]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve
+2. Deny
+0. Exit    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: Customer Account has been denyed.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Account status has been finalized.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Transactional Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 5633, Balance: 123.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 4725, Balance: 38427.00]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: For input string: "dsaf"    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Transactional Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 5633, Balance: 123.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 4725, Balance: 38427.00]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Transactional Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 5633, Balance: 123.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 4725, Balance: 38427.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve
+2. Deny
+0. Exit    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Transactional Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 5633, Balance: 123.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 4725, Balance: 38427.00]    11-11-2020
+[WARN] com.bank.main.EmployeeDashboard: Must select a number from the list.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Transactional Accounts Pending Approval -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 5633, Balance: 123.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 4725, Balance: 38427.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve
+2. Deny
+0. Exit    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Must enter a proper Employee ID (number).    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Must enter a proper Employee ID (number).    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: That account does not exist.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[ERROR] com.bank.main.UserDashboard: Must enter a proper Employee ID (number).    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[WARN] com.bank.main.EmployeeDashboard: Must select a number from the list.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Account History:    11-11-2020
+[ERROR] com.bank.main.EmployeeDashboard: That account does not exist.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Employee ID.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[WARN] com.bank.main.EmployeeDashboard: Must select a number from the list.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- View Customer Information -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Customer Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account User Name: toph, First Name: Chris, Last Name: Yun, Contact: 8189735186]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account User Name: lovelycatz, First Name: claire, Last Name: la, Contact: 1231231233]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account User Name: testinglog, First Name: testing, Last Name: log, Contact: 1231231234]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Select Transactional Account.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Account History:    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: [11/08/2020 15:27] Deposited: $100.00    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: [11/08/2020 15:48] Deposited: $125.00    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: [11/08/2020 16:03] Transfered: $125.00    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: [11/08/2020 18:32] Deposited: $234.00    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: [11/08/2020 18:32] Withdrew: $11.00    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Employee Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 1. Approve Pending Customer Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 2. Approve Pending Transactional Accounts.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 3. View Customer Information.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard: Returning to main menu.    11-11-2020
+[INFO] com.bank.main.EmployeeDashboard:     11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Create New Account -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Create New Account -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    11-11-2020
+[ERROR] com.bank.main.CustomerDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Create New Account -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid balance. Must be greater than zero.    11-11-2020
+[WARN] com.bank.main.CustomerDashboard: Account Creation Failed.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Create New Account -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid balance. Must be greater than zero.    11-11-2020
+[WARN] com.bank.main.CustomerDashboard: Account Creation Failed.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Create New Account -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Deposit initial balance for new account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Account Creation Successful. Pending Approval.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Accounts -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 1111, Balance: 370.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Accounts -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 1111, Balance: 370.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Accounts -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: [Account ID: 1111, Balance: 370.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Withdraw Money -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[ERROR] com.bank.main.CustomerDashboard: For input string: "fsa"    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Welcome to Chris' Super Cool Bank    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.main.UserDashboard: Login Failed.    11-11-2020
+[INFO] com.bank.main.UserDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Login Menu -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: 1. Customer Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 2. Employee Login    11-11-2020
+[INFO] com.bank.main.UserDashboard: 3. Register new account    11-11-2020
+[INFO] com.bank.main.UserDashboard: 0. Exit    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Login -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter User Name.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Enter Password.    11-11-2020
+[INFO] com.bank.main.UserDashboard: Login Successful!    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Withdraw Money -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[ERROR] com.bank.main.CustomerDashboard: Must input a number.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Withdraw Money -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: Select Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. [Account ID: 1234, Balance: 250.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. [Account ID: 5928, Balance: 1000.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. [Account ID: 8383, Balance: 323.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. [Account ID: 1111, Balance: 370.00]    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: How much would you like to withdraw?    11-11-2020
+[ERROR] com.bank.main.CustomerDashboard: That account does not exist.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard:     11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.util.UI: *- Customer Options -*    11-11-2020
+[INFO] com.bank.main.util.UI: ==============================    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 1. Create New Account.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 2. View Accounts.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 3. Withdraw Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 4. Deposit Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 5. Transfer Money.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 6. Receive Transfer.    11-11-2020
+[INFO] com.bank.main.CustomerDashboard: 0. Exit.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find ID.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find user name.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Account Records Available.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Account Records Available.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Transfers Available.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Account Records Available.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $371.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $370.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Account not found.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $371.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Account not found.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $370.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $371.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Account not found.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $370.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Wrong password.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find ID.    11-11-2020
+[WARN] com.bank.dao.impl.BankSearchDAOImpl: Could not find user name.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Account Records Available.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Transfers Available.    11-11-2020
+[WARN] com.bank.service.impl.BankSearchServiceImpl: No Account Records Available.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $371.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added deposit to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Account not found.    11-11-2020
+[INFO] com.bank.service.impl.BankManipulateServiceImpl: New balance: $370.00    11-11-2020
+[INFO] com.bank.dao.impl.BankLogDAOImpl: Added withdraw to log.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be greater than zero.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020
+[WARN] com.bank.service.impl.BankManipulateServiceImpl: Invalid amount. Must be less than current balance.    11-11-2020

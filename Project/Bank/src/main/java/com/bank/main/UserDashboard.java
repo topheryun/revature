@@ -16,15 +16,13 @@ public class UserDashboard {
 	
 	private static Logger log = Logger.getLogger(UserDashboard.class);
 
-/* ==================================================
- User Dashboard
-================================================== */
 	public static void viewUserLoginRoute() {
 		Scanner scanner = new Scanner(System.in);
 		log.info("Welcome to Chris' Super Cool Bank");
-		int userChoice = 0;
+		int userChoice = -1;
 		
 		do {
+			userChoice = -1;
 			UI.printConsoleMenuItem("Login Menu");
 			log.info("1. Customer Login");
 			log.info("2. Employee Login");
@@ -56,23 +54,18 @@ public class UserDashboard {
 		} while(userChoice != 0);
 		scanner.close();
 	}
-	
-/* ==================================================
- Customer Login - backend done
-================================================== */	
+
 	public static void viewCustomerLoginRoute(Scanner scanner) {
 		ValidationService validationService = new ValidationServiceImpl();
 		String userName = "", password = "";
 		
 		UI.printConsoleMenuItem("Customer Login");
-		
 		try {
 			log.info("Enter User Name.");
 			userName = scanner.nextLine();
 			log.info("Enter Password.");
 			password = scanner.nextLine();
-			Boolean checkUserLogin = 
-					validationService.verifyUserLogin(userName,password);
+			Boolean checkUserLogin = validationService.verifyUserLogin(userName,password);
 			if (checkUserLogin) {
 				log.info("Login Successful!");
 				CustomerDashboard.viewCustomerDashboard(scanner, userName);
@@ -85,23 +78,18 @@ public class UserDashboard {
 		}
 	}
 	
-/* ==================================================
- Employee Login - backend done
-================================================== */	
 	public static void viewEmployeeLoginRoute(Scanner scanner) {
 		ValidationService validationService = new ValidationServiceImpl();
 		int employeeId = 0;
 		String password = "";
 		
 		UI.printConsoleMenuItem("Employee Login");
-		
 		try {
 			log.info("Enter Employee ID.");
 			employeeId = Integer.parseInt(scanner.nextLine());
 			log.info("Enter Password.");
 			password = scanner.nextLine();
-			Boolean checkEmployeeLogin =
-					validationService.verifyEmployeeLogin(employeeId,password);
+			Boolean checkEmployeeLogin = validationService.verifyEmployeeLogin(employeeId,password);
 			if (checkEmployeeLogin) {
 				log.info("Login Successful!");
 				EmployeeDashboard.viewEmployeeDashboard(scanner);
@@ -111,19 +99,17 @@ public class UserDashboard {
 			}
 		} catch (BusinessException e ) {
 			log.error(e.getMessage());
+		} catch (NumberFormatException e) {
+			log.error("Must enter a proper Employee ID (number).");
 		}
 	}
-	
-/* ==================================================
- Customer Register
-================================================== */
+
 	public static void viewCustomerRegisterRoute(Scanner scanner) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		String userName = "", firstName = "", lastName = "", password = "";
 		Long contact = 0L;
 		
 		UI.printConsoleMenuItem("Customer Registration");
-		
 		try {
 			log.info("Enter User Name.");
 			userName = scanner.nextLine();
@@ -138,15 +124,16 @@ public class UserDashboard {
 			Customer customer = new Customer(userName, firstName, lastName, contact);
 			Boolean checkRegistrationInfo = bankManipulateService.registerNewCustomerAccount(customer, password);
 			if (checkRegistrationInfo) {
-				log.info("Registration Pending.");
+				log.info("Registration Pending. Waiting for approval from Employee.");
 			}
 			else {
 				log.warn("Registration Failed.");
 			}
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
+		} catch (NumberFormatException e) {
+			log.error("Phone number must be a 10 digit number.");
 		}
-		
 	}
 	
 }

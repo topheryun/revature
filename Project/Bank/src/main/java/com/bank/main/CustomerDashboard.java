@@ -16,14 +16,12 @@ import com.bank.service.impl.BankSearchServiceImpl;
 public class CustomerDashboard {
 	
 	private static Logger log = Logger.getLogger(CustomerDashboard.class);
-	
-/* ==================================================
- Customer Dashboard
-================================================== */
+
 	public static void viewCustomerDashboard(Scanner scanner, String userName) {
-		int userChoice = 0;
+		int userChoice = -1;
 		
 		do {
+			userChoice = -1;
 			UI.printConsoleMenuItem("Customer Options");
 			log.info("1. Create New Account.");
 			log.info("2. View Accounts.");
@@ -39,7 +37,7 @@ public class CustomerDashboard {
 			
 			switch (userChoice) {
 			case 1:
-				viewCreateNewAccountRoute(scanner, userName);
+				viewCreateNewTransactionalAccountRoute(scanner, userName);
 				break;
 			case 2:
 				viewAccountsRoute(scanner, userName);
@@ -67,35 +65,31 @@ public class CustomerDashboard {
 		} while(userChoice != 0);
 	}
 	
-/* ==================================================
- Create New Account backend done (ADD LOG?)
-================================================== */
-	public static void viewCreateNewAccountRoute(Scanner scanner, String userName) {
+	public static void viewCreateNewTransactionalAccountRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		float balance = 0;
+		
 		UI.printConsoleMenuItem("Create New Account");
 		try {
 			log.info("Deposit initial balance for new account.");
 			balance = Float.parseFloat(scanner.nextLine());
-			Boolean checkCreateAccount = 
-					bankManipulateService.createNewTransactionalAccount(userName, balance);
+			Boolean checkCreateAccount = bankManipulateService.createNewTransactionalAccount(userName, balance);
 			if (checkCreateAccount) {
-				log.info("Account Creation Successful. Pending Approval.");
+				log.info("Account Creation Successful. Pending Approval by Employee.");
 			}
 			else {
 				log.warn("Account Creation Failed.");
 			}
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
+		} catch (NumberFormatException e) {
+			log.error("Must input a number.");
 		}
-		
 	}
 	
-/* ==================================================
- View Accounts -  backend done
-================================================== */
 	public static void viewAccountsRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
+		
 		UI.printConsoleMenuItem("Accounts");
 		try {
 			List<Account> accountList = bankSearchService.getAllTransactionalAccounts(userName);
@@ -109,9 +103,6 @@ public class CustomerDashboard {
 		}
 	}
 	
-/* ==================================================
- Withdraw Money backend done ADD LOG
-================================================== */
 	public static void viewWithdrawMoneyRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
@@ -128,14 +119,17 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				if (userAccountChoice != 0) {
+				if (userAccountChoice > accountList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (userAccountChoice != 0) {
 					log.info("How much would you like to withdraw?");
 					userWithdrawAmount = Float.parseFloat(scanner.nextLine());
 					boolean checkWithdraw = 
-							bankManipulateService.withdrawFromAccount(
-								accountList.get(userAccountChoice-1).getAccountNumber(), 
-								userWithdrawAmount
-							);
+						bankManipulateService.withdrawFromAccount(
+							accountList.get(userAccountChoice-1).getAccountNumber(), 
+							userWithdrawAmount
+						);
 					if (checkWithdraw) {
 						log.info(String.format("$%.2f has been withdrawan from your account.", userWithdrawAmount));
 					}
@@ -147,13 +141,12 @@ public class CustomerDashboard {
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		} catch (NumberFormatException e) {	
+			log.error("Must input a number.");
 		} catch (IndexOutOfBoundsException e) {
+			log.error("That account does not exist.");
 		}
 	}
 	
-/* ==================================================
- Deposit Money ADD LOG
-================================================== */
 	public static void viewDepositMoneyRoute(Scanner scanner, String userName) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
@@ -170,14 +163,17 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				if (userAccountChoice != 0) {
+				if (userAccountChoice > accountList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (userAccountChoice != 0) {
 					log.info("How much would you like to deposit?");
 					userDepositAmount = Float.parseFloat(scanner.nextLine());
 					boolean checkDeposit = 
-							bankManipulateService.depositToAccount(
-								accountList.get(userAccountChoice-1).getAccountNumber(), 
-								userDepositAmount
-							);
+						bankManipulateService.depositToAccount(
+							accountList.get(userAccountChoice-1).getAccountNumber(), 
+							userDepositAmount
+						);
 					if (checkDeposit) {
 						log.info(String.format("$%.2f has been deposited to your account.", userDepositAmount));
 					}
@@ -189,13 +185,12 @@ public class CustomerDashboard {
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		} catch (NumberFormatException e) {	
+			log.error("Must input a number.");
 		} catch (IndexOutOfBoundsException e) {
+			log.error("That account does not exist.");
 		}
 	}
-	
-/* ==================================================
- Transfer Money backend done ADD LOG
-================================================== */
+
 	public static void viewTransferMoneyRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -213,17 +208,20 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				if (userAccountChoice != 0) {
+				if (userAccountChoice > accountList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (userAccountChoice != 0) {
 					log.info("Enter account number to transfer to.");
 					userTransferTarget = Integer.parseInt(scanner.nextLine());
 					log.info("Enter amount to be transfered.");
 					userTransferAmount = Float.parseFloat(scanner.nextLine());
 					boolean checkTransfer = 
-							bankManipulateService.transferMoney(
-								accountList.get(userAccountChoice-1).getAccountNumber(),
-								userTransferTarget,
-								userTransferAmount
-							);
+						bankManipulateService.transferMoney(
+							accountList.get(userAccountChoice-1).getAccountNumber(),
+							userTransferTarget,
+							userTransferAmount
+						);
 					if (checkTransfer) {
 						log.info(String.format("$%.2f is transfering to account %d.", userTransferAmount, userTransferTarget));
 					}
@@ -235,13 +233,12 @@ public class CustomerDashboard {
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		} catch (NumberFormatException e) {	
+			log.error("Must input a number.");
 		} catch (IndexOutOfBoundsException e) {
+			log.error("That account does not exist.");
 		}
 	}
 	
-/* ==================================================
- Receive Transfer backend done ADD LOG
-================================================== */
 	public static void viewReceiveTransferRoute(Scanner scanner, String userName) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -257,7 +254,10 @@ public class CustomerDashboard {
 					log.info(i++ + ". " + transfer);
 				}
 				userTransferChoice = Integer.parseInt(scanner.nextLine());
-				if (userTransferChoice != 0) {
+				if (userTransferChoice > transfersList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (userTransferChoice != 0) {
 					boolean checkTransfer = 
 							bankManipulateService.receiveTransfer(transfersList.get(userTransferChoice-1));
 					if (checkTransfer) {

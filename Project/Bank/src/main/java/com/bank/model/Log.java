@@ -7,9 +7,6 @@ public class Log {
 	private float amount;
 	private String ldt;
 	
-	public Log() {
-	}
-	
 	public Log(int id, String type, float amount, String ldt) {
 		super();
 		this.id = id;
@@ -37,7 +34,8 @@ public class Log {
 		return ret;
 	}
 	
-	
+	public Log() {
+	}
 
 	public int getId() {
 		return id;
@@ -64,5 +62,4 @@ public class Log {
 		this.ldt = ldt;
 	}
 	
-
 }

@@ -98,7 +98,7 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 
 	@Override
 	public List<Account> getAllTransactionalAccounts(String userName) throws BusinessException {
-		List<Account> accountsList = new ArrayList<>();;
+		List<Account> accountsList = new ArrayList<>();
 		try (Connection connection = BankPostgresSqlConnection.getConnection()) {
 			String sql = BankDbQueries.GET_ALL_TRANSACTIONAL_ACCOUNTS;
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);

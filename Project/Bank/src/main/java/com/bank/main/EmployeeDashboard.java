@@ -20,14 +20,12 @@ import com.bank.service.impl.BankSearchServiceImpl;
 public class EmployeeDashboard {
 	
 	private static Logger log = Logger.getLogger(EmployeeDashboard.class);
-	
-/* ==================================================
- Employee Dashboard
-================================================== */
+
 	public static void viewEmployeeDashboard(Scanner scanner) {
-		int userChoice = 0;
+		int userChoice = -1;
 		
 		do {
+			userChoice = -1;
 			UI.printConsoleMenuItem("Employee Options");
 			log.info("1. Approve Pending Customer Accounts.");
 			log.info("2. Approve Pending Transactional Accounts.");
@@ -59,9 +57,6 @@ public class EmployeeDashboard {
 		} while(userChoice != 0);
 	}
 	
-/* ==================================================
- Approve Pending Customer Accounts backend done
-================================================== */
 	public static void viewApprovePendingCustomerAccountsRoute(Scanner scanner) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -78,16 +73,19 @@ public class EmployeeDashboard {
 					log.info(i++ + ". " + customer);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				if (userAccountChoice != 0) {
+				if (userAccountChoice > customerList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (userAccountChoice != 0) {
 					log.info("1. Approve\n2. Deny\n0. Exit");
 					int choice = Integer.parseInt(scanner.nextLine());
 					if (choice != 0) {
 						isApproved = choice == 1 ? true : false;
 						boolean isFinalized = 
-								bankManipulateService.finalizePendingCustomerAccount(
-									customerList.get(userAccountChoice-1), 
-									isApproved
-								);
+							bankManipulateService.finalizePendingCustomerAccount(
+								customerList.get(userAccountChoice-1), 
+								isApproved
+							);
 						if (isFinalized) {
 							log.info("Account status has been finalized.");
 						}
@@ -103,14 +101,12 @@ public class EmployeeDashboard {
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		} catch (NumberFormatException e) {	
+			log.error("Must input a number.");
 		} catch (IndexOutOfBoundsException e) {
+			log.error("That account does not exist.");
 		}
-		
 	}
-	
-/* ==================================================
- Approve Pending Transactional Accounts  backend done
-================================================== */
+
 	public static void viewApprovePendingTransactionalAccountsRoute(Scanner scanner) {
 		BankManipulateService bankManipulateService = new BankManipulateServiceImpl();
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -127,16 +123,19 @@ public class EmployeeDashboard {
 					log.info(i++ + ". " + account);
 				}
 				userAccountChoice = Integer.parseInt(scanner.nextLine());
-				if (userAccountChoice != 0) {
+				if (userAccountChoice > accountsList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (userAccountChoice != 0) {
 					log.info("1. Approve\n2. Deny\n0. Exit");
 					int choice = Integer.parseInt(scanner.nextLine());
 					if (choice != 0) {
 						isApproved = choice == 1 ? true : false;
 						boolean isFinalized = 
-								bankManipulateService.finalizePendingTransactionalAccount(
-									accountsList.get(userAccountChoice-1), 
-									isApproved
-								);
+							bankManipulateService.finalizePendingTransactionalAccount(
+								accountsList.get(userAccountChoice-1), 
+								isApproved
+							);
 						if (isFinalized) {
 							log.info("Account status has been finalized.");
 						}
@@ -152,14 +151,12 @@ public class EmployeeDashboard {
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
 		} catch (NumberFormatException e) {	
+			log.error("Must input a number.");
 		} catch (IndexOutOfBoundsException e) {
+			log.error("That account does not exist.");
 		}
-		
 	}
 	
-/* ==================================================
- View Customer Information 
-================================================== */
 	public static void viewViewCustomerInformationRoute(Scanner scanner) {
 		BankSearchService bankSearchService = new BankSearchServiceImpl();
 		BankLogService bankLogService = new BankLogServiceImpl();
@@ -175,7 +172,10 @@ public class EmployeeDashboard {
 					log.info(i++ + ". " + customer);
 				}
 				choice = Integer.parseInt(scanner.nextLine());
-				if (choice != 0) {
+				if (choice > customerList.size()) {
+					log.warn("Must select a number from the list.");
+				}
+				else if (choice != 0) {
 					log.info("Select Transactional Account.");
 					List<Account> accountList = bankSearchService.getAllTransactionalAccounts(
 							customerList.get(choice-1).getUserName());
@@ -185,7 +185,10 @@ public class EmployeeDashboard {
 							log.info(j++ + ". " + account);
 						}
 						choice = Integer.parseInt(scanner.nextLine());
-						if (choice != 0) {
+						if (choice > accountList.size()) {
+							log.warn("Must select a number from the list.");
+						}
+						else if (choice != 0) {
 							log.info("Account History:");
 							List<Log> logList = bankLogService.getAccountHistory(accountList.get(choice-1));
 							if (logList != null && logList.size() > 0) {
@@ -208,8 +211,11 @@ public class EmployeeDashboard {
 			}
 		} catch (BusinessException e) {
 			log.error(e.getMessage());
+		} catch (NumberFormatException e) {	
+			log.error("Must input a number.");
+		} catch (IndexOutOfBoundsException e) {
+			log.error("That account does not exist.");
 		}
 	}
 	
-
 }
